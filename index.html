@@ -2,39 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-   <link rel="stylesheet" href="index.css">
+   <link rel="stylesheet" href="./assets/styles/index.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
     <title>Document</title>
-    <style>
-        a {
-            text-decoration: none;
-        }
-    </style>
 </head>
-<body class="body">
+<body>
 
-<header class="head">
-    <div class="gipp">
-        <a href="index.html"><img src="home.png" alt=""></a>
-    </div>
-<div class="gip">
-<a class="a" href="home.html">HOME</a>    
-<a class="a" href="about.html">ABOUT</a>
-<a class="a" href="">WORK</a>
-<a class="a" href="">PROCESS</a>
-<a class="a" href="">SERVICES</a>
-<a class="a" href="">TESTIMONIALS</a>
-<a class="a" href="contact.html">CONTACT</a>
+<div class="banner">
+    <header class="header">
+        <div class="header_logo">
+            <a href="./index.html">
+                <img src="./assets/images/home.png" alt="">
+            </a>
+        </div>
+        <menu class="header_menu">
+            <a class="menu_link" href="./pages/home.html">HOME</a>    
+            <a class="menu_link" href="./pages/about.html">ABOUT</a>
+            <a class="menu_link" href="/#">WORK</a>
+            <a class="menu_link" href="/#">PROCESS</a>
+            <a class="menu_link" href="/#">SERVICES</a>
+            <a class="menu_link" href="/#">TESTIMONIALS</a>
+            <a class="menu_link" href="./pages/contact.html">CONTACT</a>
+        </menu>
+    </header>
+
+    <section class="banner_article">
+        <div class="banner_article__wrapper">
+            <h1 class="banner_article__title">We Design and Develop</h1>
+            <p class="banner_article__text">We are a new design studio based in USA. We have over 20 years of combined expirience,
+                and know a thing or two about designing websites and mobile apps
+            </p>
+        </div>
+    </section>
+    <button class="btn banner_button">
+        CONTACT US
+    </button>
 </div>
-<section class="info">
-<h1 class="h1">We Design and Develop</h1>
-<p class="p">We are a new design studio based in USA. We have over 20 years of combined expirience,
-    and know a thing or two about designing websites and mobile apps
-</p>
-</section>
-<button class="btn">
-   <a  class="btncol" href="">CONTACT US</a> 
-</button>
-</header>
+
 <main class="mmain">
 <section class="main">
 
@@ -45,33 +50,30 @@
         heaven fruit, dominion she`d won`t very all. </pre>
 </p>
 
-<img class="img" src="images.png" alt="Тут была роспись">
+<img class="img" src="./assets/images/images.png" alt="">
 
 </section>
-<section class="main2">
+<section class="progress">
+    <h1 class="progress_title">Proffesional Skills</h1>
 
-<h1 class="h1main2">Proffesional Skills</h1>
-<div class="design">
-    <h3>UI/UX DESIGN 75%</h3>
-<div class="wrapper">
-     <div class="progress"></div>
+    <div class="design progress_card">
+        <h3 class="progress_card__title">UI/UX DESIGN 75%</h3>
+        <div class=" progress_card__chart">
+            <div class=" progress_card__line" data-progress="75"></div>
         </div>
-</div>
-
-<div class="web">
-    <h3>WEB DEVELOPMENT 90%</h3>
-<div class="wrapper">
-     <div class="progress"></div>
+    </div>
+    <div class="design progress_card">
+        <h3 class="progress_card__title">WEB DEVELOPMENT 90%</h3>
+        <div class=" progress_card__chart">
+            <div class=" progress_card__line" data-progress="90"></div>
         </div>
-</div>
-
-<div class="market">
-    <h3>MARKETING 65%</h3>
-<div class="wrapper">
-     <div class="progress"></div>
+    </div>
+    <div class="design progress_card">
+        <h3 class="progress_card__title">MARKETING 65%</h3>
+        <div class=" progress_card__chart">
+            <div class="progress_card__line" data-progress="65"></div>
         </div>
-</div>
-
+    </div>
 </section>
 </main>
 <footer class="footer">   

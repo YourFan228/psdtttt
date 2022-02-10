@@ -1,0 +1,147 @@
+.body {
+    margin: 0;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+}
+.ahome {
+    text-decoration: none;
+    color: #00ced1;
+}
+.a:active {
+    color: black;
+}
+
+.gip {
+    text-align: right;
+    padding: 40px 100px 0px 0px;
+    word-spacing: 30px;
+    height: 70px;
+    font-weight: bold;
+}
+
+.amelia {
+    height: 400px;
+    background-image: url(amelia.png);
+    background-size:1400px 400px;
+      
+}
+.info {
+    text-align:center;
+    padding-top: 100px;
+    color: #b5bdc5;
+    font-size: 15px;
+    line-height: 30px;
+    
+}
+.info h1 {
+    color:whitesmoke;
+    font-size: 40px;
+}
+
+.exp {
+    height: 250px;
+    background-color: turquoise;
+}
+.expinfo {
+    padding: 100px;
+    display: flex;
+    color: whitesmoke;
+
+}
+.box {
+padding-left: 100px;
+}
+.img {
+    padding-right: 20px;
+}
+
+.aboutme {
+    display: flex;
+    background-color: rgb(240, 244, 247);
+}
+.about-text {
+    padding-left: 50px;
+    padding-top: 150px;
+    padding-right: 100px;
+    color:  rgb(124, 124, 124);
+    
+}
+.about-text h1 {
+    font-size:40px;
+    color: black;
+}
+.about-text p {
+  margin-bottom: 0px;
+ 
+}
+.rospis {
+    padding-top: 20px;
+}
+.project {
+    text-align: center;
+    padding-top: 80px;
+    height: 300px;
+}
+.project pre {
+    line-height: 20px;
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    word-spacing: 1px;
+}
+.btn {
+    position: absolute;
+    top: 1620px;
+    left: 570px;
+    width: 250px;
+    height: 60px;
+    background-color: #00ced1;
+    border: none;
+}
+.btncol {
+    color: white;
+    text-decoration:none;
+}
+.btn:hover {
+    opacity: 0.9;
+}
+.foot {
+    background-color: rgb(0, 0, 0);
+    color: #adadad;
+    height: 200px;
+    display: flex;
+    padding: 50px;
+    line-height: 25px;
+    
+}
+.white {
+    color: white;
+    padding-bottom: 25px;
+}
+
+.two {
+    padding-left: 300px;
+}
+.three {
+    padding-left: 150px;
+}
+.four {
+    padding-left: 50px;
+}
+.five {
+    padding-left: 200px;
+}
+
+.footer {
+    margin-top: 100px;
+}
+
+
+.gipp {
+    position: absolute;
+    top: 40px;
+    left: 100px;
+}
